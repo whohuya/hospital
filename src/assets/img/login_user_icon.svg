@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63 (92445) - https://sketch.com -->
+    <title>编组 6</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="账户密码登录" transform="translate(-370.000000, -394.000000)">
+            <g id="编组-15" transform="translate(370.000000, 394.000000)">
+                <g id="编组-6" transform="translate(6.774170, 3.074829)">
+                    <circle id="椭圆形" fill="#BFBFBF" cx="5.41943359" cy="16.1026589" r="1"></circle>
+                    <rect id="矩形" stroke="#BFBFBF" stroke-width="1.2" stroke-linecap="round" x="0.193910256" y="-3.67705866e-13" width="10.4510467" height="18.1311771" rx="2"></rect>
+                    <line x1="3.86815154" y1="1.87223245" x2="6.99249268" y2="1.87223245" id="直线" stroke="#BFBFBF" stroke-linecap="round"></line>
+                    <line x1="0.361295573" y1="14.1198687" x2="10.4775716" y2="14.1198687" id="直线" stroke="#BFBFBF" stroke-width="1.2" stroke-linecap="round"></line>
+                    <line x1="0.361295573" y1="3.68721626" x2="10.4775716" y2="3.68721626" id="直线" stroke="#BFBFBF" stroke-width="1.2" stroke-linecap="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

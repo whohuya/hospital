@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
+    <link rel="stylesheet" href="./lib/css/element-ui-2.15.1.css" />
+    <title>信科云管理后台</title>
+  </head>
+  <body>
+    <noscript>
+      <strong>
+        We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to continue.
+      </strong>
+    </noscript>
+    <div id="app"></div>
+    <script>
+      // console.log("<%= process.env.NODE_ENV %>")
+    </script>
+    <!-- built files will be auto injected -->
+    <script src="./lib/utils/vue<%= process.env.NODE_ENV === 'development' ? '' : '.min' %>.js"></script>
+    <script src="./lib/utils/vue-router<%= process.env.NODE_ENV === 'development' ? '' : '.min' %>.js"></script>
+    <script src="./lib/utils/axios.min.js"></script>
+    <script src="./lib/utils/element-ui-2.15.1.js"></script>
+    <script src="./lib/utils/moment.min.js"></script>
+    <script src="./lib/jmessage-sdk-web.2.6.0.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+/* 初始化 */
+html, body {
+    background: #fff;
+    font-size: 14px;
+    color: #000!important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /*height:100%;*/
+}
+body {
+    background-color: #ffffff;
+    font-size: 14px!important;
+    -webkit-font-smoothing: antialiased;
+    font-family: arial,sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #555555;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+}
+ol, ul {
+    list-style: none;
+}
+button, input, select {
+    font: 100% tahoma,\5b8b\4f53,arial;
+    vertical-align: baseline;
+    border-radius: 0;
+    background-color: transparent;
+}
+a, button, input, label, select {
+    -webkit-tap-highlight-color: transparent;
+}
+blockquote, body, button, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, iframe, img, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    background-color: #f6f7fb;
+}

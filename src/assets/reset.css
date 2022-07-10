@@ -1,0 +1,357 @@
+@charset "utf-8";
+
+/* CSS Document */
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+textarea {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    resize: none;
+    font-size: 14px;
+    vertical-align: baseline;
+    background: transparent;
+    color: #000;
+    font-family: 'PingFang SC', 'Helvetica Neue', Helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
+
+body {
+    line-height: 1;
+    background-color: #f6f7fb !important;
+}
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+nav,
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: none;
+}
+a {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 14px;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+     color:#000;
+    font-family: 'PingFang SC','Helvetica Neue', Helvetica, 'Hiragino Sans GB', 'Microsoft YaHei', '微软雅黑', Arial, sans-serif;
+}
+input,
+select {
+    vertical-align: middle;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    height: 0;
+    clear: both;
+}
+.clearfix {
+    zoom: 1;
+}
+
+.text-l {
+    text-align: left;
+}
+.text-r {
+    text-align: right;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+body,
+html {
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    /*min-width: 1260px;*/
+    overflow-x: auto;
+    background:#f5f5f5;
+}
+input::-webkit-input-placeholder {
+    color: #c0c4cc;
+}
+input::-moz-placeholder {
+    /* Mozilla Firefox 19+ */
+    color: #c0c4cc;
+}
+input:-moz-placeholder {
+    /* Mozilla Firefox 4 to 18 */
+    color: #c0c4cc;
+}
+input:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #c0c4cc;
+}
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #f6f7fb;
+}
+.menu-leftbar .el-menu::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 6px rgba(0,0,0,0.3);     */
+    border-radius: 10px;
+    background-color: #fff;
+}
+/*定义滑块 内阴影+圆角*/
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    /* box-shadow: inset 0 0 6px rgba(0,0,0,.3); */
+    background-color: #dcdfe6;
+}
+/* 去除浏览器填充密码自动颜色*/
+/* input{
+    box-shadow:inset 0 0 0 1000px #fff!important;
+
+}
+input:-internal-autofill-selected {
+    box-shadow:inset 0 0 0 1000px #f7f7f7!important;
+}
+input:-webkit-autofill{
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+
+  }
+input:-webkit-autofill:focus{
+    -webkit-text-fill-color: #333 !important;
+
+} */
+
+/*文字溢出三行*/
+
+.textOverflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 3;
+    max-height: 70px;
+    display: -webkit-box;
+    /*! autoprefixer: ignore next */
+    -webkit-box-orient: vertical;
+}
+
+.hide {
+    display: none;
+  }
+
+.fontsize22{
+    font-size:22px;
+}
+.default-content-padding{
+    padding:50px;
+}
+.default-box-padding{
+    padding:32px;
+    margin-bottom:20px;
+}
+.default-order-padding{
+    padding:0 32px 32px;
+    margin-bottom:20px;
+}
+.default-content-bg{
+    background:#fff;
+    box-shadow:0px 5px 20px 0px rgba(0,0,0,0.05);
+    border-radius:10px;
+}
+.fontsize20{
+    font-size:20px;
+}
+.fontsize18{
+    font-size:18px;
+}
+.fontsize16{
+    font-size:16px;
+}
+.fontsize14{
+    font-size:14px;
+}
+.fontsize30{
+    font-size:30px;
+}
+.fontsize12{
+    font-size:12px;
+}
+.container{
+    /*双击文字、input等，出现的蓝色底色，如何去除*/
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    /*-khtml-user-select:none;!*早期浏览器*!*/
+    user-select:none;
+
+    width: calc(100% - 100px);
+    margin: 0 auto;
+    /*background: #ffffff;*/
+    border-radius: 10px;
+    box-shadow: 0 5px 20px 0 rgba(0,0,0,0.05);
+  }
+.page-container{
+    width: 100%;
+    background: #f6f7fb;
+    height: 100%;
+}
+
+/*按钮*/
+.btn-default.el-button{
+    background: rgba(0,102,255,0.06);
+    border-radius: 6px;
+    border: none;
+    text-align: center;
+    min-width: 90px;
+    padding: 10px 20px;
+}
+.btn-default i{
+     color: #0066FF;
+     font-size: 14px;
+     font-weight: bold;
+ }
+.btn-default span{
+     color: #0066FF;
+ }
+
+.opera-info{
+    display: inline-block;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+
+/*重置element样式*/
+.form-item-inline .el-form-item__label{
+    color: #6D7278;
+    font-size: 12px;
+    width: 90px;
+}
+.form-item-inline .el-form-item__content{
+    line-height: 36px;
+}
+.form-item-inline .el-input,.form-item-inline .el-select {
+    font-size: 12px;
+}
+.el-input__inner,textarea,.el-cascader,.el-input{
+    height: 36px;
+    line-height: 36px;
+}
+.form-item-inline .el-input--suffix .el-input__inner{
+    padding-right: 15px;
+}
+.el-dialog__title{
+    font-size: 16px;
+    font-family: PingFang, PingFang-SC;
+    font-weight: 600;
+    text-align: left;
+    color: #0a1428;
+    line-height: 16px;
+}
+.el-select-dropdown{
+   width:178px
+}
+.el-input__icon{
+    line-height: 36px;
+}

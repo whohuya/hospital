@@ -1,0 +1,51 @@
+.add-dialog{
+    .el-col{
+        padding: 0 20px;
+        .el-form-item{
+            margin-bottom: 10px;
+            .el-form-item__label{
+                float: none;
+                color: #6D7278;
+                font-size: 12px;
+            }
+            .el-form-item__content{
+                margin-left: 0 !important;
+                width: 100%;
+                .el-input,.el-textarea ,.el-select{
+                    height: 100%;
+                    input,textarea{
+                        color: #999999;
+                        background: #F7FAFB;
+                        font-size: 12px;
+                        border-radius: 7px;
+                        box-sizing: border-box;
+                    }
+                    .el-input__suffix{
+                        height: 100%;
+                        .el-input__icon{
+                            line-height: 34px;
+                        }
+                    }
+                }
+              .el-cascader{
+                  height: 100%;
+                .el-cascader__search-input{
+                  background-color:#F7FAFB ;
+                }
+              }
+             
+            }
+            &.label-inline{
+                .el-form-item__label{
+                    float: left;
+                    text-align: left;
+                }
+                .el-form-item__content{
+                    margin-left: 100px ;
+                    width: auto;
+                }
+            }
+        }
+    }
+
+}
